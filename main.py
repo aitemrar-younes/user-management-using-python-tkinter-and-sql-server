@@ -8,7 +8,7 @@ selectedItemInTable = -1
 
 def db_connection():
     connection = pyodbc.connect(  'Driver={SQL Server};'
-                        'Server=DESKTOP-LH28PFG\SQLEXPRESS;'
+                        'Server=.\SQLEXPRESS;'
                         'Database=app;'
                         'Trusted_Connection=yes;')
     return connection
